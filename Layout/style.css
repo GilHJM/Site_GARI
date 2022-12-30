@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Quadrinhos*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #dcdee1;
+    background-image:url(../Img/IMG-FUNDO19.png);
+}
+.title
+{
+    width: 100%;
+    height: 150px;
+    background-image:url(../Img/IMG-FUNDO.png);
+}
+h2.title
+{
+    align-items: center;
+    color: #ffffff;
+    display: flex;
+}
+h2.title a
+{
+    font-size: 40px;
+    margin-left: 5%;
+    text-transform: uppercase;
+}
+.Categoria
+{
+    display: flex;
+}
+.img_categoria{
+    height: 220px;
+    margin-top: auto;
+    display: flex;
+
+    padding: 10px;
+}
+.Categoria :hover{
+    height: 330px;
+    width: 450px;
+    margin-top: auto;
+    display: flex;
+    padding: 10px;
+}
+.Categoria :hover>.img_categoria
+{
+    background-color: #007fad;
+}
+/* Baner*/
+.Banner{
+    height: 100px;
+    background-image:url(../Img/IMG-FUNDO.png);
+}
+.Banner h2{
+    padding-top: 10px;
+    font-size: 72px;
+    text-align: left;
+    text-indent: 20px;
+    color: #dcdee1;
+}
+/*Video*/
+.container{
+    margin-top: 1%;
+    position: relative;
+    width: 100%;
+    height: 700px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    overflow: hidden;
+    z-index: -1;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.col{
+    flex-basis: 50%;
+    min-height: 250px;
+}
+.feature-img{
+    width: 83%;
+    margin: auto;
+    position: relative;
+    border-radius: 6px;
+    overflow: hidden;
+
+}
+.small-img-row{
+    display: flex;
+    background: #efefef;
+    margin: 20px 0;
+    
+}
+/** ----------Menu-------------------**/
+
+:root {
+    --cor1: #203865;
+    --cor2:  #d94444;
+    --cor3: #e7f1ec;
+}
+
+#menu-h ul {
+    list-style-type: none;
+    padding: 0;
+    z-index: 1;
+}
+
+#menu-h ul {
+    background-color: var(--cor1);
+}
+
+#menu-h ul li {
+    display: inline;
+    position: relative;
+}
+.btn-red
+{
+    background-color: #ad2a2a;
+}
+#menu-h ul li a {
+    color: var(--cor3);
+    text-decoration: none;
+    display: inline-block;
+    padding: 12px;
+    transition: background .3s;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+#menu-h ul li a:hover {
+    background-color: var(--cor2);
+}
+
+/*sub menu*/
+#menu-h ul ul {
+    display: none;
+    left: 0;
+    position: absolute;
+}
+
+#menu-h ul li:hover ul {
+    display: block;
+}
+
+#menu-h ul ul {
+    width: 300px
+}
+
+#menu-h ul ul li a {
+    display: block;
+}

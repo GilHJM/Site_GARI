@@ -1,0 +1,149 @@
+li
+{
+    list-style: none;
+}
+section
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+section h2
+{
+    padding-top: 70px;
+    font-size: 45px;
+    color: #fff;
+    text-align: left;
+}
+#video_player
+{
+    position: relative;
+    display: flex;
+}
+.container #main-Video
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding-left: 10px;
+    overflow: hidden;
+    outline: none;
+}
+
+.playlistBx
+{
+    position: relative;
+    height: 100%;
+    margin: 0 10px 0 10px;
+    background-color: #203865;
+    /* border: 2px solid green; */
+}
+.playlist
+{
+    position: absolute;
+    width: 100%;
+    height: calc(100% - 40px);
+    overflow-y: scroll;
+    border: 1px solid #1d4074;
+}
+.playlistBx .row .AllLessons
+{
+   display: block;
+   text-align: left;
+   color: #dcdee1;
+   font-size: 15px;
+   font-weight: 700;
+   margin-left: 40px;
+   line-height: 40px;
+}
+.playlist li
+{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   list-style: none;
+   color: #dcdee1;
+   cursor: pointer;
+   border: 1px solid transparent;
+   padding: 15px 20px;
+
+}
+.playlist li:hover
+{
+    border: 0.5px solid #1b6a92;
+    background-color: rgb(28, 93, 146);
+}
+.playlist li .row span
+{
+    font-size: 15px;
+    font-weight: 400;
+    color: #dcdee1;
+    text-decoration: none;
+    display: inline-block;
+    text-align: left;
+}
+.playlist li .row span::before
+{
+    content: '\f01d';
+    font-family: FontAwesome;
+    color: #dcdee1;
+    margin-right: 15px;
+    font-size: 20px;
+}
+ul li.playing .row span::before
+{
+    content: '\f28c';
+    font-family: FontAwesome;
+    color: #fff;
+    margin-right: 15px;
+    font-size: 20px;
+}
+.playlist li.playing .row span
+{
+   color: #fff;
+}
+.playlist li span.duration
+{
+    font-size: 15px;
+    font-weight: 400;
+    display: inline-block;
+    color: #dcdee1;
+    text-align: right;
+}
+.playlist li.playing
+{
+   pointer-events: none;
+   background: #c13d3e;
+   border-bottom: 4px solid #86161d;
+}
+
+@media(max-width: 1092px){
+    section
+    {
+        padding: 30px 10px;
+    }
+    .container
+    {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        overflow: hidden;
+    }
+    .container #main-Video
+    {
+        height: 100%;
+    }
+    .playlistBx
+    {
+        height: 380px;
+        margin-top: 10px;
+    }
+    .playlist
+    {
+        position: absolute;
+        width: 100%;
+        height: calc(100% - 40px);
+        overflow-y: scroll;
+    }
+}
