@@ -11,7 +11,7 @@ const ulTag = document.querySelector("ul");
 // MENU INICIO
 menu.innerHTML = ` <ul>
 <li>
-    <a href="Main.html" class='btn-red'>Inicio</a>
+    <a href="index.html" class='btn-red'>Inicio</a>
 </li>
 <li><a>5° semestre</a>
     <ul>
