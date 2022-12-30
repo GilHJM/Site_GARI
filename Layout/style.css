@@ -70,7 +70,7 @@ h2.title a
     display: grid;
     grid-template-columns: 2fr 1fr;
     overflow: hidden;
-    /*Update 0004A-FIX z-index: -1; */
+    /*Update 0004A-FIX z-index: 0; */
 }
 .row{
     display: flex;
