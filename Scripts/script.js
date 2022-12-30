@@ -28,7 +28,6 @@ menu.innerHTML = ` <ul>
             <li><a href="CategoriaGP.html">Gerência De Projetos Em TI</a></li>
             <li><a href="CategoriaPO.html">Pesquisa Operacional</a></li>
             <li><a href="CategoriaSI.html">Segurança Da Informação</a></li>
-            <li><a href="CategoriaPDC.html">Geestão de Sist...</a></li>
     </ul>
 </li>
 </ul> `
