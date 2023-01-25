@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>GARI</title>
+        <link rel="stylesheet" type="text/css" media="screen" href="Layout/style.css" />
+        <link rel="stylesheet" type="text/css" media="screen" href="Layout/video.css" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="icon" href="Gari.ico" sizes="144x144">
+    </head>
+    <body>
+       
+        <div>
+            <nav id="menu-h"></nav>
+        </div>
+        
+        <div class="Banner">
+            <h2>Adicionar Videos</h2>
+        </div>
+
+        <div class="Videos">
+            <div class="InputBox">
+
+                <a style="padding-left: 5px; font-size:23px; color: #203865; height: 25px"> Url </a>
+
+                <input class="TxtUrl" type="text" name="Url do Video" id="UrlVideo" size="75" style="font-size:23px; height: 25px">
+
+                <a style="padding-left: 5px; font-size:23px; color: #203865; height: 25px"> ID </a>
+
+                <input class="TxtUrl" type="text" name="Id" id="Id" size="2" style="font-size:23px; height: 25px; width: 45px ;">
+
+                <a style="padding-left: 5px; font-size:23px; color: #203865; height: 25px"> Data</a>
+
+                <input class="TxtDate" id="DateUrl" type="date" style="font-size:23px; height: 25px">
+
+            </div>
+            <button class="green"type="button" id="btnAdicionarVideos">Adicionar</button>
+            <button class="green"type="button" onclick="saveText()">Salvar</button>
+
+            <label for="fileInput" class="custom-file-upload">Selecione o arquivo</label>
+            <input type="file" id="fileInput" />
+            <button class="green" id="uploadBtn">Upload</button>
+
+        </div>
+        <div>
+            <table id="videosTable">
+                <tr>
+                    <th>Name</th>
+                    <th>Src</th>
+                    <th>Id</th>
+                </tr>
+              </table>              
+        </div>
+        <script src="Scripts/addvideo.js"></script>
+        <script src="Scripts/script.js"></script>
+    </body>
+</html>

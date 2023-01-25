@@ -30,6 +30,9 @@ menu.innerHTML = ` <ul>
             <li><a href="CategoriaSI.html">Segurança Da Informação</a></li>
     </ul>
 </li>
+<li>
+    <a href="AddVideo.html" class='btn-red'>Adicionar videos</a>
+</li>
 </ul> `
 // MENU FIM
 

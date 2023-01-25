@@ -161,3 +161,137 @@ h1
 #menu-h ul ul li a {
     display: block;
 }
+
+/* Botão */
+input[type="file"] 
+{
+    display: none;
+}
+
+/* Cria um botão personalizado */
+.custom-file-upload 
+{
+text-transform: uppercase;
+color: white;
+width: 180px;
+height: 35px;
+box-sizing: border-box;
+background: #c13d3e;
+border: none;
+border-bottom: 4px solid #86161d;
+border-right: 3px solid #86161d;
+font-size: 11px;
+border-radius: 6px;
+cursor: pointer;
+transition: 0.1s;
+margin-bottom: 5px;
+margin-left: 10px;
+padding: .6rem .9rem;
+display: inline-block;
+}
+.custom-file-upload:hover
+{
+box-sizing: border-box;
+background: #269eca;
+border: none;
+border-bottom: 4px solid #007fad;
+border-right: 3px solid #007fad;
+cursor: pointer;
+transition: 0.1s;
+margin-bottom: 5px;
+display: inline-block;
+}
+.Videos input.green:hover
+{
+box-sizing: border-box;
+background: #269eca;
+border: none;
+border-bottom: 4px solid #007fad;
+border-right: 3px solid #007fad;
+cursor: pointer;
+transition: 0.1s;
+margin-bottom: 5px;
+display: inline-block;
+}
+/* btn2 */
+.Videos button.green
+{
+text-transform: uppercase;
+color: white;
+width: 150px;
+height: 35px;
+box-sizing: border-box;
+background: #c13d3e;
+border: none;
+border-bottom: 4px solid #86161d;
+border-right: 3px solid #86161d;
+font-size: 11px;
+border-radius: 6px;
+cursor: pointer;
+transition: 0.1s;
+margin-bottom: 5px;
+margin-left: 10px;
+padding: .6rem .9rem;
+display: inline-block;
+}
+.Videos button.green:hover
+{
+box-sizing: border-box;
+background: #269eca;
+border: none;
+border-bottom: 4px solid #007fad;
+border-right: 3px solid #007fad;
+cursor: pointer;
+transition: 0.1s;
+margin-bottom: 5px;
+display: inline-block;
+}
+
+.TxtDate
+{
+width: 170px;
+left: auto;
+margin: 10px;
+border: solid 2px #007fad;
+color: #203865;
+}
+.InputBox
+{
+height: auto;
+width: auto;
+display: flex;
+}
+.TxtUrl
+{
+width: 550px ;
+left: auto;
+margin: 10px;
+border: solid 2px #007fad;
+color: #203865;
+}
+/* tabela */
+table 
+{
+border-collapse: collapse;
+font-family:Arial, Helvetica, sans-serif;
+font-size: 21px;
+background-color: #f2f2f2;
+color: black;
+width: 98%;
+margin-left: 1%;
+}
+th 
+{
+background-color: #f2f2f2;
+width: 25%;
+}
+td, th 
+{
+border: 2px solid rgb(117, 117, 117);
+text-align: center;
+}
+tr:hover 
+{
+background-color: #203865;
+color: #ffffff;
+} 
