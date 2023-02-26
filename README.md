@@ -1,6 +1,5 @@
-![This is an image]()
 # Site_GARI
-_O Site_GARI é uma plataforma de vídeos que disponibiliza aulas da faculdade de Ciências da Computação da Universidade Nove de Julho. Os vídeos das aulas estão hospedados no Google Drive e são carregados no site através de um arquivo JSON. Utilizamos o iframe para exibir os vídeos de forma organizada e fácil de acessar. É importante ressaltar que todos os vídeos são privados e não devem ser compartilhados ou distribuídos sem autorização. O uso do código do site é livre, porém os vídeos devem ser substituídos por outros de sua propriedade._
+>_O Site_GARI é uma plataforma de vídeos que disponibiliza aulas da faculdade de Ciências da Computação da Universidade Nove de Julho. Os vídeos das aulas estão hospedados no Google Drive e são carregados no site através de um arquivo JSON. Utilizamos o iframe para exibir os vídeos de forma organizada e fácil de acessar. É importante ressaltar que todos os vídeos são privados e não devem ser compartilhados ou distribuídos sem autorização. O uso do código do site é livre, porém os vídeos devem ser substituídos por outros de sua propriedade._
 
 # Documento de Utilização do Site GARI
 
@@ -20,10 +19,10 @@ O autor se reserva o direito de alterar as condições de utilização do site s
 
 **Ao acessar e utilizar o site GARI, o usuário concorda com todas as condições estabelecidas neste documento. Em caso de descumprimento dessas condições, o autor Gilberto Junio se reserva o direito de tomar as medidas necessárias para proteger seus direitos de propriedade intelectual e os direitos dos usuários.**
 
-Data da última atualização: 23 de fevereiro de 2023.
+>Data da última atualização: 23 de fevereiro de 2023.
 
 # Contribuindo
-Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue caso encontre algum problema ou tenha sugestões para melhorias. Pull requests também são aceitos.
+>Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue caso encontre algum problema ou tenha sugestões para melhorias. Pull requests também são aceitos.
 
 # Licença MIT
 
@@ -37,4 +36,4 @@ O SOFTWARE É FORNECIDO "COMO ESTÁ", SEM GARANTIA DE QUALQUER TIPO, EXPRESSA OU
 
 
 # Disclaimer
-Este projeto foi criado para fins educacionais e não é algo totalmente funcional. Utilize por sua conta e risco.
+>Este projeto foi criado para fins educacionais e não é algo totalmente funcional. Utilize por sua conta e risco.
