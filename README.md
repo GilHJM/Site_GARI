@@ -1,3 +1,4 @@
+![This is an image]()
 # Site_GARI
 _O Site_GARI é uma plataforma de vídeos que disponibiliza aulas da faculdade de Ciências da Computação da Universidade Nove de Julho. Os vídeos das aulas estão hospedados no Google Drive e são carregados no site através de um arquivo JSON. Utilizamos o iframe para exibir os vídeos de forma organizada e fácil de acessar. É importante ressaltar que todos os vídeos são privados e não devem ser compartilhados ou distribuídos sem autorização. O uso do código do site é livre, porém os vídeos devem ser substituídos por outros de sua propriedade._
 
